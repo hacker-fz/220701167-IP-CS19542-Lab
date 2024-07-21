@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Resume</title>
+    <title>Document</title>
 </head>
-<body>
-    <div class="top"></div>
-    <div class="profile">
-        <img src="images/profile.webp" alt="profile_pic">
-        <div class="txt">
-            <h1 class="name">MOHAMED FAIZ</h1>
-            <h3>B.E. Computer Science</h3>
-            <hr style="margin-top: 5px;margin-bottom: 5px;">
-            <p>Email: johndoe@example.com | Phone: (123) 456-7890</p>
-            <p>LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe</p>
+<body style="background-color: rgb(255, 159, 159);">
+
+    <div class="resume">
+        <div class="left">
+            <div class="profile">
+                <img src="images/profile.webp" alt="profile pic">
+                <div class="name">
+                    <h1>MOHAMED FAIZ A</h1>
+                    <hr style="margin-top:8px;margin-bottom: 8px;">
+                    <h4>Third Year B.E-CSE</h4>
+                </div>
+            </div>
+            <div class="contact">
+                <h2 style="margin-bottom: 10px;">PERSONAL INFO:</h2>
+                <table>
+                    <tr>
+                        <th>Phone</th>
+                        <td>6381387399</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>220701167@rajalakshmi.edu.in</td>
+                    </tr>
+                    <tr>
+                        <th>Linkedin</th>
+                        <td>mohamedfaiz/linkedin</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content">
+                <h3>EXPERTISE</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Graphic Design</li>
+                    <li>Programming</li>
+                </ul>
+
+                <h3>LANGUAGES</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Tamil</li>
+                    <li>Hindi</li>
+                </ul>
+
+                <h3>SKILLS</h3>
+                <table class="skill">
+                    <tr>
+                        <td>Programming Languages</td> <td>Java</td> <td>C</td> <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Web Technologies</td> <td>HTML</td> <td>CSS</td> <td>React</td>
+                    </tr>
+                    <tr>
+                        <td>Tools</td> <td>Git</td> <td>Docker</td> <td>Jenkins</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+<!--end 0f left-->
+        <div class="right">
+            <h3>ABOUT ME</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat, quam mollitia reprehenderit hic commodi. Inventore porro dicta dolores temporibus exercitationem error debitis, sequi obcaecati tenetur accusantium maxime facilis dolore!</p>
+            <h3>EDUCATION</h3>
+            <h4>B.E. Computer Science and Engineering</h4>
+            <ul>
+                <li>Rajalakshmi Engineering College</li>
+                <li>2022 - 2026 (Expected)</li>
+                <li>CGPA :8.5</li>
+            </ul>
+            <h4>Class 12th ,StateBoard ,85%</h4>
+            <ul>
+                <li>Adrash MHSS</li>
+                <li>2020-2022</li>
+            </ul>
+            <h3>CERTIFICATIONS</h3>
+            <ul>
+                <li>Android Web Development, Coursera </li>
+                <li>Machine Learning Certification, Udemy</li>
+            </ul>
+            <h3>DECLARATION</h3>
+            <p>The information stated above is true to the best of my knowledge and belief</p>
         </div>
     </div>
-    <div class="sec_1">
-        <hr style="margin-bottom: 30px;">
-        <h2>Summary</h2>
-        <p style="margin-bottom: 30px;">Experienced software developer with a strong background in developing award-winning strategies for a diverse clientele. 10+ years of industry experience includes programming, troubleshooting, and management.</p>
-        <h2>Education</h2>
-        <h3>Bachelor of Engineering in Computer Science</h3>
-        <p style="margin-bottom: 30px;">Rajalakshmi Engineering College - 2026</p>
-        <h2>Skills</h2>
-        <table style="margin-bottom: 30px;">
-            <tr>
-                <td>Programming Languages</td> <td>Java</td> <td>C</td> <td>Python</td>
-            </tr>
-            <tr>
-                <td>Web Technologies</td> <td>HTML</td> <td>CSS</td> <td>React</td>
-            </tr>
-            <tr>
-                <td>Tools</td> <td>Git</td> <td>Docker</td> <td>Jenkins</td>
-            </tr>
-        </table>
-
-        <h2>Experience</h2>
-            <ul>
-                <li style="margin-bottom: 30px;">
-                    <h3>Senior Software Engineer - ABC Corp</h3>
-                    <p>January 2015 - Present</p>
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Developed and maintained web applications using JavaScript, HTML, CSS, and backend technologies.</li>
-                        <li>Led a team of 5 developers to deliver high-quality software on time.</li>
-                        <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Software Developer - XYZ Inc.</h3>
-                    <p>June 2010 - December 2014</p>
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Worked on a variety of projects including web applications, mobile apps, and desktop software.</li>
-                        <li>Participated in the entire software development lifecycle including requirements gathering, design, coding, testing, and deployment.</li>
-                        <li>Provided technical support and training to end users.</li>
-                    </ul>
-                </li>
-            </ul>
-    </div>
 </body>
-</html>
+</html></HTMl:5>
